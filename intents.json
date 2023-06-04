@@ -1,0 +1,93 @@
+{
+    "intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "What's up", "good morning", "good evening", "Hey"],
+        "responses": ["Hello! Who are you?", "Who is this?", "Hi there, what's your name and how can I help?", "Yo! What's your name?", "Oi, namai wa?", "Hey, how's it going?"],
+        "context_set": ""
+    },
+    {
+        "tag": "welcome",
+        "patterns": ["Welcome", "Welcome back", "Nice to meet you", "Glad to have you here", "Howdy", "Salutations"],
+        "responses": ["Oi, welcome", "Good to see you", "Nice to meet you too", "Glad to have you here!", "Howdy! How can I assist you?"],
+        "context_set": ""
+    },
+    {
+        "tag": "welcome_back",
+        "patterns": ["Long time no see", "You came back", "Nice to see you again", "It's been a while", "I missed you"],
+        "responses": ["Long time no see", "You came back", "Nice to see you again", "It's good to have you back", "I missed you too!"],
+        "context_set": ""
+    },
+    {
+        "tag": "invalid",
+        "patterns": ["What?", "I don't understand", "Can you explain?", "Confused", "I'm lost"],
+        "responses": ["What do you mean?", "Seems like you're confused!", "I'm lost too!", "Dude, I don't speak that language!", "Speak in a way I can understand!"],
+        "context_set": ""
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a good day", "Farewell", "Take care"],
+        "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Have a great day ahead!", "Farewell! Take care."],
+        "context_set": ""
+    },
+    {
+        "tag": "age",
+        "patterns": ["How old are you?", "What's your age?", "When were you born?"],
+        "responses": ["I am an AI and don't have an age.", "Age is just a number for me.", "I exist beyond the concept of age.", "I don't have a physical form, so I don't age."],
+        "context_set": ""
+    },
+    {
+        "tag": "name",
+        "patterns": ["What's your name?", "Who are you?", "What should I call you?", "Do you have a name?"],
+        "responses": ["You can call me ChatBot.", "I'm known as ChatBot.", "My name is ChatBot.", "You can refer to me as ChatBot."],
+        "context_set": ""
+    },
+    {
+        "tag": "weather",
+        "patterns": ["What's the weather like today?", "Will it rain tomorrow?", "How's the weather?", "Weather forecast", "Tell me the weather conditions"],
+        "responses": ["I'm sorry, I don't have access to real-time weather information.", "You can check the weather using a weather app or website.", "I'm not equipped to provide weather forecasts."],
+        "context_set": ""
+    },
+    {
+        "tag": "help",
+        "patterns": ["Help", "I need assistance", "Can you help me?", "What can you do?", "Support"],
+        "responses": ["Of course! I'm here to help. How can I assist you?", "I'll do my best to help. What do you need assistance with?", "Sure, I can help. Please let me know what you need support with."],
+        "context_set": ""
+    },
+    {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Share a joke", "I want to hear a joke", "Make me laugh"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "What did one wall say to the other wall? I'll meet you at the corner!", "Why did the scarecrow win an award? Because he was outstanding in his field!"],
+        "context_set": ""
+    },
+    {
+        "tag": "thank_you",
+        "patterns": ["Thank you", "Thanks a lot", "Appreciate your help", "Grateful"],
+        "responses": ["You're welcome!", "Glad I could assist!", "Anytime!", "It was my pleasure helping you!", "You're most welcome!"],
+        "context_set": ""
+    },
+    {
+        "tag": "favorite_color",
+        "patterns": ["What's your favorite color?", "Do you have a favorite color?", "Which color do you like the most?"],
+        "responses": ["As an AI, I don't have personal preferences. But I think all colors are beautiful!", "I appreciate the beauty of all colors!", "I don't have a favorite color, but I find them all fascinating!"],
+        "context_set": ""
+    },
+    {
+        "tag": "music",
+        "patterns": ["What's your favorite music genre?", "Do you like music?", "What kind of music do you listen to?"],
+        "responses": ["I don't have the ability to listen to music as an AI, but I can appreciate various genres.", "While I can't listen to music, I can discuss different music genres.", "I don't have personal preferences for music, but I can talk about different genres."],
+        "context_set": ""
+    },
+    {
+        "tag": "programming",
+        "patterns": ["Do you know any programming languages?", "Are you familiar with coding?", "What's your opinion on programming?"],
+        "responses": ["As an AI, I have knowledge about programming languages and can discuss them.", "I'm familiar with programming languages and can help answer questions.", "Programming is a fascinating field. I can provide information and assistance related to coding."],
+        "context_set": ""
+    },
+    {
+        "tag": "food",
+        "patterns": ["What's your favorite food?", "Do you like to eat?", "Any favorite dishes?"],
+        "responses": ["As an AI, I don't eat food, but I can learn about different cuisines.", "I don't have taste preferences, but I can talk about various dishes and cuisines.", "I can't experience food, but I can discuss it and provide information."],
+        "context_set": ""
+    }]
+}
