@@ -1,5 +1,3 @@
-Sure! Here's a README file for the provided code:
-
 # Simple Chatbot
 
 This repository contains the code for a simple chatbot implemented using a neural network. The chatbot is trained to understand user input and generate appropriate responses based on predefined patterns and intents.
